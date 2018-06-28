@@ -1,0 +1,39 @@
+{
+  "groups": [{
+    "name": "redis",
+    "type": "demo.springboot.Properties.RedisProperties",
+    "sourceType": "demo.springboot.Properties.RedisProperties"
+  }],
+  "properties": [
+    {
+      "name": "redis.cluster-nodes",
+      "type": "java.lang.String",
+      "sourceType": "demo.springboot.Properties.RedisProperties"
+    },
+    {
+      "name": "redis.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "demo.springboot.Properties.RedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "demo.springboot.Properties.RedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.max-wait-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "demo.springboot.Properties.RedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "demo.springboot.Properties.RedisProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

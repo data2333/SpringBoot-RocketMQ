@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  */
 @SpringBootApplication
 @EnableJpaRepositories
-@ComponentScan(basePackages = "demo.springboot")
+@ComponentScan(basePackages = {"demo.springboot"})
 public class Productor {
     public static void main(String[] args) {
         SpringApplication.run(Productor.class, args);
