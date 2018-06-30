@@ -1,11 +1,23 @@
 package demo.springboot.web;
 
 import demo.springboot.service.ArticleService;
+import demo.springboot.service.TestService;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Book 控制层
@@ -13,8 +25,10 @@ import javax.annotation.Resource;
  * Created by bysocket on 27/09/2017.
  */
 @RestController
-@RequestMapping(value = "/book")
+@EnableCaching
+@RequestMapping("/test")
 public class BookController {
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Resource
     private ArticleService articleService;
 
@@ -29,6 +43,35 @@ public class BookController {
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public void getBookList() {
         articleService.getAllArticles();
+    }
+
+    @Resource
+    private TestService service;
+
+    @RequestMapping("/get")
+    public String query() {
+        return "[" + getDateNow() + "]" + service.query(1);
+    }
+
+    private static String getDateNow() {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return dateFormat.format(new Date());
+    }
+    @RequestMapping("/login")
+    private String TestShiro(@RequestParam("userName") String userName, @RequestParam("password") String password){
+        logger.info("==========" + userName + password + true);
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(userName, password);
+        token.setRememberMe(true);
+//        subject.isPermitted("");
+        try {
+            subject.login(token);
+        } catch (AuthenticationException e) {
+            e.printStackTrace();
+//            rediect.addFlashAttribute("errorText", "您的账号或密码输入错误!");
+            return "{\"Msg\":\"您的账号或密码输入错误\",\"state\":\"failed\"}";
+        }
+        return "{\"Msg\":\"登陆成功\",\"state\":\"success\"}";
     }
 //
 //    /**

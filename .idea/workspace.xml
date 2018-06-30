@@ -2,10 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa3f80d-90ae-480f-bb33-c6ee6491c480" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/config/MyShiroRealm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/config/ShiroConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/Event.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/Permission.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/Resources.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/Role.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/RoleResources.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/domain/UserRole.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/repository/ResourcesService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/repository/UserRepository.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/service/TestService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_crazycake_shiro_redis_2_4_2_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MyShiroRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Permission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Resources.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/RoleResources.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ResourcesService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/TestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/src/main/resources/ehcache-shiro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Producter/target/classes/ehcache-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/config/JedisClusterConfig.class" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/config/JedisClusterConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/repository/ArticleRepository.class" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/repository/ArticleRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/util/RocketMQServer.class" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/util/RocketMQServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/web/BookController.class" afterPath="$PROJECT_DIR$/Producter/target/classes/demo/springboot/web/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c38c9c4c-6b00-462c-895e-f78e02fe37bc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c38c9c4c-6b00-462c-895e-f78e02fe37bc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/Productor.iml" afterPath="$PROJECT_DIR$/Producter/Productor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/pom.xml" afterPath="$PROJECT_DIR$/Producter/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQServer.java" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java" afterPath="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/Producter/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/Producter/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/application.properties" afterPath="$PROJECT_DIR$/Producter/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Producter/target/classes/application.yml" afterPath="$PROJECT_DIR$/Producter/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,6 +123,42 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
+        <option name="myItemId" value="t_user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="role" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
         <option name="myItemId" value="articles" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
@@ -75,51 +167,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Test.java">
+      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MyShiroRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="124">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1495#1510#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Properties/RedisProperties.java">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="193">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisClusterConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Productor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +198,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="XSLT Stylesheet" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -142,6 +210,10 @@
       <find>cre</find>
       <find>TopicTest</find>
       <find>11</find>
+      <find>ShiroRealm</find>
+      <find>Matc</find>
+      <find>spring</find>
+      <find>thy</find>
     </findStrings>
     <replaceStrings>
       <replace>00</replace>
@@ -155,27 +227,16 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response3.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-3-spring-boot-web/pom.xml" />
-        <option value="$PROJECT_DIR$/Productor/pom.xml" />
-        <option value="$PROJECT_DIR$/Producter/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/Customer/src/main/java/demo/springboot/Customer.java" />
-        <option value="$PROJECT_DIR$/Customer/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Customer/src/main/java/demo/springboot/web/BookController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/DruidStatFilter.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/DruidDBConfig.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/ArticleDAO.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java" />
         <option value="dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.articles" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Article.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c38c9c4c-6b00-462c-895e-f78e02fe37bc/console.sql" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/impl/ArticleDAO.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/IArticleDAO.java" />
@@ -187,18 +248,42 @@
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/RocketMQConsumerConfiguration.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/interfaces/MessageProcessor.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/MessageListener.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQServer.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQClient.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Customer/src/main/java/demo/springboot/service/impl/RocketMQClient.java" />
         <option value="$PROJECT_DIR$/Customer/pom.xml" />
         <option value="$PROJECT_DIR$/Customer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Producter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Properties/RedisProperties.java" />
-        <option value="$PROJECT_DIR$/Producter/pom.xml" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java" />
-        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java" />
         <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Test.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/TestService.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Event.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQServer.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c38c9c4c-6b00-462c-895e-f78e02fe37bc/console.sql" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MShiroFilterFactoryBean.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/impl/UserDao.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/resources/ehcache-shiro.xml" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/ShiroController.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/RoleResources.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/impl/ResourcesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java" />
+        <option value="$PROJECT_DIR$/Producter/pom.xml" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Role.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Resources.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ResourcesService.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/User.java" />
+        <option value="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/UserRole.java" />
       </list>
     </option>
   </component>
@@ -281,7 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,7 +497,287 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Producter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,9 +869,145 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -519,15 +1020,944 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/springboot-starter-rocketmq/spring-boot-starter-rocketmq" />
+    <property name="last_opened_file_path" value="$USER_HOME$/springboot-shiro" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="A82E43D578793C755A122D82F3B9BDC5" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="A82E43D578793C755A122D82F3B9BDC5" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="AC26597565F84A2402B50F166DCCD77A" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="AC26597565F84A2402B50F166DCCD77A" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="AC26597565F84A2402B50F166DCCD77A" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="AC26597565F84A2402B50F166DCCD77A" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="AC26597565F84A2402B50F166DCCD77A" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/test/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="C35F9B060FD64972C6754A752CD733C2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="EFF05FE31BE51FAD2F66C450E7E53202" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="EFF05FE31BE51FAD2F66C450E7E53202" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="EFF05FE31BE51FAD2F66C450E7E53202" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721896000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="DsLDIQpm8zh2jpoQRVh5mOwEWeo7jRTk8Vav2UPeNX3WLe7LMKU51CVXP80Xaq4onrcfu1siFPwbqrxGswkVEHql1UDJaWKlqGpwIh2xbcd6Y0kZXX6vUeXyJOSCp9xhjmjeh0cpXo1+yKAAzs1kv41QcWRCLCFxXHI5kvpEsIbB8eLMGkaxB144uM/rsxNiP9Av3Ek2lvdJaOI+nzXz3pjclXmWAFN3rjsoC9GsRjlQhbAbC3NkAYWbTrOn+YoNVaGxvOK5JSetwjFsJVKL2XAj5bm/cBXoddMNWV0TZzchptfyQosg9OnZ+2b0N17MOdDLbdjU83inG1kGhCrNo9WpMNg5kDkE+5WEaJrNEDOdbySD5cxLpRrGhHJh+zAEMQ+lPjOUJpPpXw8EyVwM0qBX21YiGP0s27Ufl6tpH7YPkCOSrDKhP2ACipqAzqrOd6wJuc0gSwfH4kQMq/w98Ezx2khm4Z8K7zxhsgrRAyT7jzInTHd0txewwuC1/e83EUR6vp5Qt7riLx3STduccPtwMSxqm0OzV04nSAdxbkKruvPRuYf69qsH23Pe8VPpfpQ9wQTKL+cRtHu0zpIRUAaG+3VUwLh4lkSYRqirWtkgr/qhzP9Hhzpi1NgaPRriDVg62GIa0ta/7FqERBc41bSrsMAFOxr1kExBmBAPffZjqZIO0TY8S0U+H+7aTsrdkdCVQZDjW+pnjiAcd4wh0PqeG5mAhsRVL/WGJ4y5c6v/MiEh20a3DZloa/Riz71euctQR1wiyfnoM4o3q7fk9Tt9Ee2zY1XmanBQADjgFLo=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="EFF05FE31BE51FAD2F66C450E7E53202" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1561721228000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="rememberMe" />
+                <option name="path" value="/" />
+                <option name="value" value="8tdSN5OkK3xbbrpkN0Y5JeIfbO/WWbZ7l4whPl+vWb1r1+PVfqnmTKSAUeKvjJnvOhTyt4HfScbcoEkRjbyd+MN0MCJrP4Ndz1ysFlBgPxjko6qst2iRAg6hAFA7IGrABj91/foZKXRoQ96nILybAGaFRc/FZNo0ikiS3ydPqrgDN7JQaj4tUPMGyHzj7BL40EHZzdGLVAYuHps8TbH/8k9B9tgxl+e2Zq8S5qOziiRv0UFl9JbS+3SKMPeQy3cyseVyCuWdQsWSshumfdQ8O3su+rqN8fJ1Nmr48ppzSH9yJ75KYs+//FgzQvyFC02ZTyLrZuNRHU4vWQQoVY1FY6XrO6PBz4Utq4eqQ/dJ2mjFh5anWcxnXtMhrGhemTymdXywpO2u5OD3LjCQhwMCyDy7AzDvlOurH3NEA3pNe26HkrTe8Z2CY5/F6k8jozfAQIkKGKCDd6YKE7gI/bdzxaHop10XS405BWdJxtOUiMqJF+7OvU3qRH1ru4/+5YMtXDPb7JGH5aXUG7/UqlnmD6Dxm4OGL5vu3lHNCoDu6bJoub7yfM95yAJ2PYvTskW3onwG1apWANgRdD4FudubBufgYeWtn0QQv3zwy1lYVqfsKGqEHwgjS8nwG0W2vO3IHVVG5ZFfEI8QtY1vwWeIW0GerarSX9B++CtMkFmxAxSlq2tYnUl0MZrEznBY0wAGffG2jI5iYpP8uY72seoK/MpxYAt6n9q/wPXxL6orPFqQ61PGvEbp3B6lkgNCiNWNUM3Z+S/8Gu4nJnfvnaZRR6CDcN4gfDD18tRI+Z4TNQs=" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="EFF05FE31BE51FAD2F66C450E7E53202" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="ABF43394D6D746712EE9DABAAFEB4634" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="17F56074217642A29D9DDC4427E73753" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="17F56074217642A29D9DDC4427E73753" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="17F56074217642A29D9DDC4427E73753" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="shit" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9C9FCA8F5363D9D17B84BA2D56F53619" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="shit" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="shit" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/book/Demo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="mmp" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="shit" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Productor">
     <configuration default="false" name="Customer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -966,20 +2396,30 @@
       <workItem from="1530077707281" duration="3372000" />
       <workItem from="1530088669784" duration="4761000" />
       <workItem from="1530148281717" duration="1358000" />
-      <workItem from="1530150559493" duration="1296000" />
+      <workItem from="1530150559493" duration="6064000" />
+      <workItem from="1530161008103" duration="2118000" />
+      <workItem from="1530174526805" duration="9451000" />
+      <workItem from="1530184341949" duration="2478000" />
+      <workItem from="1530189879338" duration="2137000" />
+      <workItem from="1530205902837" duration="3641000" />
+      <workItem from="1530239303050" duration="281000" />
+      <workItem from="1530256416047" duration="354000" />
+      <workItem from="1530257211168" duration="524000" />
+      <workItem from="1530269242725" duration="1841000" />
+      <workItem from="1530359295538" duration="3093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25570000" />
+    <option name="totallyTimeSpent" value="56256000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="788" extended-state="7" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1448" height="788" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38931298" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30981594" sideWeight="0.5071839" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15660919" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -988,26 +2428,27 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43404907" sideWeight="0.49712643" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36809817" sideWeight="0.49425286" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29813218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4095092" sideWeight="0.4928161" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36809817" sideWeight="0.49425286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2801724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.49568966" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.49568966" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1017,8 +2458,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="now shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="now shiro" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="22" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1026,361 +2473,458 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/Productor.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_144/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user_role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.t_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.role_resources">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.resources">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c38c9c4c-6b00-462c-895e-f78e02fe37bc/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.articles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/impl/BookServiceImpl.java">
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="123">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/impl/ArticleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/IArticleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/web/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/DruidDBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/RocketmqProperties.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Exeception/RocketMQException.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/interfaces/MessageProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/DruidStatFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/MessageProcessorImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/MessageListener.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/RocketMQProducerConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/RocketMQConsumerConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="92">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/RocketMQServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="47" />
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/service/impl/RocketMQClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/Customer.java">
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroRealm.java" />
+    <entry file="file://$PROJECT_DIR$/Customer/src/main/java/demo/springboot/web/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.t_user_role">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c38c9c4c-6b00-462c-895e-f78e02fe37bc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/IArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/impl/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/impl/ArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding>
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#1180#1181#0" expanded="false" />
+            <element signature="e#1243#1244#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/dao/IUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/ehcache-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/util/DruidStatFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e7b5e4c4/c38c9c4c-6b00-462c-895e-f78e02fe37bc/test.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MShiroFilterFactoryBean.java" />
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/ShiroController.java" />
     <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/RoleResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        <state relative-caret-position="-170">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/service/impl/ResourcesServiceImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.1.RELEASE/spring-data-redis-1.8.1.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Properties/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Productor.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="138" column="25" lean-forward="false" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/repository/ResourcesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/domain/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#1495#1510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Test.java">
+    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/web/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="193">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/Properties/RedisProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Producter/src/main/java/demo/springboot/config/JedisClusterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,6 @@
-    redis:  
-      clusterNodes: 127.0.0.1:7000,127.0.0.1:7001,127.0.0.1:7002,127.0.0.1:7003,127.0.0.1:7004,127.0.0.1:7005
-      maxWaitMillis: 5000  
-      maxTotal: 1000  
-      minIdle: 10  
-      maxIdle: 20  
+redis:
+  clusterNodes: 127.0.0.1:7000,127.0.0.1:7001,127.0.0.1:7002,127.0.0.1:7003,127.0.0.1:7004,127.0.0.1:7005
+  maxWaitMillis: 5000
+  maxTotal: 1000
+  minIdle: 10
+  maxIdle: 20

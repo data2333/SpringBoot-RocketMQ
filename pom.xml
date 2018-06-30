@@ -16,6 +16,7 @@
     <properties>
         <dubbo-spring-boot>1.0.0</dubbo-spring-boot>
     </properties>
+
     <modules>
         <module>Producter</module>
         <module>Customer</module>

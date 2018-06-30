@@ -30,6 +30,7 @@ public class JedisClusterConfig {
         jedisPoolConfig.setMaxIdle(redisProperties.getMaxIdle());
         jedisPoolConfig.setMinIdle(redisProperties.getMinIdle());
         jedisPoolConfig.setMaxWaitMillis(redisProperties.getMaxWaitMillis());
+        System.out.println("蛤蟆皮");
         return jedisPoolConfig;
     }
 
