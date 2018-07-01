@@ -4,6 +4,7 @@ import demo.springboot.domain.Resources;
 import demo.springboot.domain.User;
 import demo.springboot.repository.ResourcesService;
 import demo.springboot.repository.UserRepository;
+import demo.springboot.util.PasswordHelper;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -60,6 +61,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         if (0==user.getEnable()) {
             throw new LockedAccountException(); // 帐号锁定
         }
+        PasswordHelper.encryptPassword(user);
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
                 user, //用户
                 user.getPassword(), //密码

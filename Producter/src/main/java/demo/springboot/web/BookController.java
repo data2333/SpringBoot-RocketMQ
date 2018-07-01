@@ -1,9 +1,12 @@
 package demo.springboot.web;
 
+import com.alibaba.druid.util.StringUtils;
+import demo.springboot.domain.User;
 import demo.springboot.service.ArticleService;
 import demo.springboot.service.TestService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.LockedAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
@@ -11,14 +14,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 /**
  * Book 控制层
  * <p>
@@ -26,7 +28,6 @@ import java.util.Date;
  */
 @RestController
 @EnableCaching
-@RequestMapping("/test")
 public class BookController {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Resource
@@ -57,21 +58,27 @@ public class BookController {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(new Date());
     }
-    @RequestMapping("/login")
-    private String TestShiro(@RequestParam("userName") String userName, @RequestParam("password") String password){
-        logger.info("==========" + userName + password + true);
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
+    private String TestShiro(HttpServletRequest request, User user){
+        if (StringUtils.isEmpty(user.getUsername()) || StringUtils.isEmpty(user.getPassword())) {
+            request.setAttribute("msg", "用户名或密码不能为空！");
+            return "login";
+        }
         Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken(userName, password);
-        token.setRememberMe(true);
-//        subject.isPermitted("");
+
+        UsernamePasswordToken token=new UsernamePasswordToken(user.getUsername(),user.getPassword());
         try {
             subject.login(token);
+            return "redirect:usersPage";
+        }catch (LockedAccountException lae) {
+            token.clear();
+            request.setAttribute("msg", "用户已经被锁定不能登录，请与管理员联系！");
+            return "login";
         } catch (AuthenticationException e) {
-            e.printStackTrace();
-//            rediect.addFlashAttribute("errorText", "您的账号或密码输入错误!");
-            return "{\"Msg\":\"您的账号或密码输入错误\",\"state\":\"failed\"}";
+            token.clear();
+            request.setAttribute("msg", "用户或密码不正确！");
+            return "login";
         }
-        return "{\"Msg\":\"登陆成功\",\"state\":\"success\"}";
     }
 //
 //    /**

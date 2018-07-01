@@ -4,6 +4,7 @@ package demo.springboot.domain;
 import javax.persistence.*;
 import java.io.Serializable;
 @Entity
+@Table(name="role")
 public class Role implements Serializable {
 	private static final long serialVersionUID = -6140090613812307452L;
 	@Id
