@@ -1,0 +1,5 @@
+sudo service mysqld start
+sudo zkServer.sh start
+sudo redis-server &
+sudo redis-stop
+sudo redis-start

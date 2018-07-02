@@ -4,3 +4,10 @@ redis:
   maxTotal: 1000
   minIdle: 10
   maxIdle: 20
+
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: none

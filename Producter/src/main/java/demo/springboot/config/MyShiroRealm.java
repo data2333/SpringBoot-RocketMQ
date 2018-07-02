@@ -16,6 +16,8 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.SimplePrincipalCollection;
 import org.apache.shiro.subject.support.DefaultSubjectContext;
 import org.apache.shiro.util.ByteSource;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.crazycake.shiro.RedisSessionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -25,6 +27,7 @@ import java.util.*;
 /**
  * Created by sun on 18-6-29.
  */
+@Aspect
 public class MyShiroRealm extends AuthorizingRealm {
 
     @Resource
@@ -62,6 +65,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             throw new LockedAccountException(); // 帐号锁定
         }
         PasswordHelper.encryptPassword(user);
+        System.out.println(user.getPassword());
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
                 user, //用户
                 user.getPassword(), //密码
@@ -76,8 +80,13 @@ public class MyShiroRealm extends AuthorizingRealm {
     }
     /**
      * 根据userId 清除当前session存在的用户的权限缓存
-     * @param userIds 已经修改了权限的userId
+//     * @param userIds 已经修改了权限的userId
      */
+    @Pointcut(value = "execution()")
+    public void get(){
+
+    }
+
     public void clearUserAuthByUserId(List<Integer> userIds){
         if(null == userIds || userIds.size() == 0)	return ;
         //获取所有session
@@ -102,7 +111,6 @@ public class MyShiroRealm extends AuthorizingRealm {
                 }
             }
         }
-
         RealmSecurityManager securityManager =
                 (RealmSecurityManager) SecurityUtils.getSecurityManager();
         MyShiroRealm realm = (MyShiroRealm)securityManager.getRealms()
